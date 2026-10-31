@@ -1,0 +1,21 @@
+# Python
+.venv/
+.venv_airflow/
+__pycache__/
+*.pyc
+
+# Airflow runtime
+airflow.db
+airflow.db-*
+airflow.cfg
+logs/
+*.pid
+
+# Secrets
+.env
+*.pem
+*.key
+
+# Editor / OS
+.vscode/
+.DS_Store
